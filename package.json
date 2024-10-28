@@ -1,0 +1,23 @@
+{
+  "name": "expedicaocientifica",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de Expedições Científicas",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js",
+    "build": "npm i --omit=dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  }
+}
